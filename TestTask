@@ -1,0 +1,15 @@
+import kotlin.math.pow
+
+fun main(args: Array<String>) {
+    var CountList = mutableListOf(2)
+    var count:Int = 2
+    var doublec = 4
+    while (count < 15){
+        CountList.add(doublec)
+        doublec = doublec * 2
+        count++
+        
+    }
+    println(CountList)
+
+}
